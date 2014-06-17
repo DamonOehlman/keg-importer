@@ -1,0 +1,24 @@
+{
+  "name": "keg-importer",
+  "version": "0.0.0",
+  "description": "Import npm packages into keg",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/keg-importer.git"
+  },
+  "keywords": [
+    "npm",
+    "couchdb"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/keg-importer/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/keg-importer"
+}
