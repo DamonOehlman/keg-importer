@@ -23,8 +23,10 @@
   "homepage": "https://github.com/DamonOehlman/keg-importer",
   "dependencies": {
     "JSONStream": "^0.8.3",
+    "async": "^0.9.0",
     "pull-stream": "^2.23.0",
     "request": "^2.36.0",
+    "slimver": "^0.1.2",
     "stream-to-pull-stream": "^1.4.1"
   }
 }
