@@ -17,7 +17,7 @@ module.exports = pull.Sink(function(read) {
 
     request({
       method: 'PUT',
-      uri: 'http://localhost:6700/' + data.name + '/' + data.version,
+      uri: 'http://localhost:6700/npm/' + data.name + '/' + data.version,
       body: JSON.stringify(data)
     }, function(err, res, body) {
       if (res.statusCode === 200 || res.statusCode === 412) {
